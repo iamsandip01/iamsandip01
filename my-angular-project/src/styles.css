@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 80px;
+    background: cornflowerblue;
+    box-shadow: 0 5px 15px rgb(0, 0, 0);
+    position: sticky;
+    top: 0;
+    left: 0;
+    
+    
+}
+nav
+{
+    flex: 1;
+    text-align: right;
+    
+}
+nav ul
+{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: orange;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+a:hover
+{
+    color: black;
+
+}
+.hero
+{
+    background-image: url(./assets/img/hero4.png);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0%;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.hero h2
+{
+  padding-bottom: 15px;
+
+}
+.hero h4
+{
+  color: aqua;
+  
+}
+.hero button
+{
+    background-image: url(./assets/img/button.png);
+  background-color: transparent;
+  color: darkblue;
+  border: 0;
+  padding: 14px 80px 14px 65px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.section-p1
+{
+    padding: 40px 80px;
+}
+.section-m1{
+    margin: 40px 0;
+}
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+button.white{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid white;
+    outline: none;
+    transition: 0.2s;
+}
+.feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 10px 10px 34px rgb(0, 0, 0);
+    border: 1px solid cadetblue;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+.feature .fe-box:hover{
+    box-shadow: 10px 10px 54px rgb(70, 62, 221);
+}
+.feature .fe-box img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.feature .fe-box h6{
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: aquamarine;
+    background-color: palevioletred;
+}
+.feature .fe-box:nth-child(2) h6{
+    background-color: aliceblue;
+}
+.feature .fe-box:nth-child(3) h6{
+    background-color: rebeccapurple;
+}
+.feature .fe-box:nth-child(4) h6{
+    background-color:green;
+}
+.feature .fe-box:nth-child(5) h6{
+    background-color: navajowhite;
+}
+.feature .fe-box:nth-child(2) h6{
+    background-color:magenta;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(./assets/img/b2.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+.banner h1{
+    color: white;
+    font-size: 16px;
+}
+.banner h2{
+    color: white;
+    font-size: 30px;
+    padding: 10px 0;
+}
+.banner h2 span{
+    color: red;
+}
+.banner button:hover{
+    background-color: chocolate;
+    color: white;
+}
+#sm-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#sm-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(./assets/img/b17.jpg);
+    min-width: 580px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+#sm-banner .banner-box2{
+    background-image: url(./assets/img/b16.jpg);
+}
+#sm-banner h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+#sm-banner h2{
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+#sm-banner span{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+#sm-banner .banner-box:hover button{
+     background-color: aquamarine;
+     border: 1px solid aquamarine;
+
+}
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(./assets/img/b1.jpg);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+
+}
