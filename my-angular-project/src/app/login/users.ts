@@ -1,5 +1,7 @@
 export class Users {
-    username!: string;
+    name!: string;
+    contact!: string;
+    email!: string;
     password!: string ;
     
 }

@@ -18,7 +18,7 @@ export class LoginComponent implements OnInit{
    console.log(this.users);
    this.userservie.getUserData(this.users).subscribe(data=>{
     alert("Login Successfully")
-   },error=>("Sorry..Please Enter Correct Username and Password")
+  },error=>("Sorry..Please Enter Correct Username and Password")
    )
   }
 }
